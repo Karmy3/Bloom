@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "639062559591",
+    "project_id": "firstfirebase-975cf",
+    "storage_bucket": "firstfirebase-975cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639062559591:android:9736efd93a5079b9f4fdc2",
+        "android_client_info": {
+          "package_name": "com.example.bloom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639062559591-6f4mrrko7qbdjbv0jbv97q5bhncoeej0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRXFkLFB1HmuwD9gyB2jtSHKxOIkO62fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639062559591-6f4mrrko7qbdjbv0jbv97q5bhncoeej0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639062559591:android:29c2037786cf0b70f4fdc2",
+        "android_client_info": {
+          "package_name": "com.rindra.firebaservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639062559591-6f4mrrko7qbdjbv0jbv97q5bhncoeej0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRXFkLFB1HmuwD9gyB2jtSHKxOIkO62fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639062559591-6f4mrrko7qbdjbv0jbv97q5bhncoeej0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
