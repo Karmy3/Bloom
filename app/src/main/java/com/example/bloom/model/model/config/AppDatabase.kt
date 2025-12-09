@@ -9,7 +9,7 @@ import com.example.bloom.model.model.dao.UserDao
 import com.example.bloom.model.model.entities.Discovery
 import com.example.bloom.model.model.entities.User
 
-@Database(entities = [User::class, Discovery::class], version = 1)
+@Database(entities = [User::class, Discovery::class], version = 1, exportSchema = false)
 
 abstract class AppDatabase : RoomDatabase() {
 

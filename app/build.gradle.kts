@@ -36,11 +36,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 
     buildFeatures {
@@ -76,7 +76,7 @@ dependencies {
     //BASE DE DONNÉES LOCALE (ROOM)
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
-    ksp(libs.room.compiler)
+    //ksp(libs.room.compiler)
 
     //REQUÊTES WEB (KTOR)
     implementation("io.ktor:ktor-client-core:2.3.8")

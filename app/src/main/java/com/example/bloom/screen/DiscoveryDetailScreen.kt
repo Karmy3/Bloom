@@ -54,7 +54,7 @@ import java.util.Locale
 fun shareDiscoveryIntent(context: Context, entry: Discovery, fileUri: Uri? = null) {
     val shareIntent = Intent().apply {
         action = Intent.ACTION_SEND
-        val shareText = "J'ai découvert: ${entry.name}! \n${entry.fact}"
+        val shareText = "I discovered: ${entry.name}! \n${entry.fact}"
         putExtra(Intent.EXTRA_TEXT, shareText)
         if (fileUri != null) {
             putExtra(Intent.EXTRA_STREAM, fileUri)
@@ -64,7 +64,7 @@ fun shareDiscoveryIntent(context: Context, entry: Discovery, fileUri: Uri? = nul
             type = "text/plain"
         }
     }
-    context.startActivity(Intent.createChooser(shareIntent, "Partager la découverte"))
+    context.startActivity(Intent.createChooser(shareIntent, "Share the discovery"))
 }
 
 fun generateDiscoveryFile(context: Context, entry: Discovery, fileFormat: String): Uri? {
@@ -225,7 +225,7 @@ fun DiscoveryDetailScreen(navController: NavController, viewModel: DiscoveryDeta
                     ) {
                         //Gère l'état de chargement/non trouvé
                         if (item == null) {
-                            Text("Découverte non trouvée ou en cours de chargement...")
+                            Text("Discovery not found or still loading...")
                             return@Column
                         }
 
